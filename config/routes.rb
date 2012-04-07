@@ -1,7 +1,6 @@
 JamesjnBlog::Application.routes.draw do
+  resources :posts
   get "blog/index"
-
-  get "blog/inde"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
